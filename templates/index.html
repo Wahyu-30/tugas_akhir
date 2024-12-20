@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>Waggy - Free eCommerce Pet Shop HTML Website Template</title>
+  <title>Happy Paws</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -171,7 +171,7 @@
 
         <div class="col-sm-4 col-lg-3 text-center text-sm-start">
           <div class="main-logo">
-            <a href="index.html">
+            <a href="{% url 'index'%}">
               <img src="{% static 'assets/images/logo.png' %}" alt="logo" class="img-fluid">
             </a>
           </div>
@@ -296,7 +296,7 @@
                 <a href="index.html" class="nav-link">Shop</a>
               </li>
               <li class="nav-item">
-                <a href="index.html" class="nav-link">Blog</a>
+                <a href="{%url 'blog'%}" class="nav-link">Blog</a>
               </li>
               <li class="nav-item">
                 <a href="https://wa.me/628999113824?text=Halo%20admin,%20saya%20ingin%20bertanya%20tentang%20produk%20Anda." class="nav-link">Contact</a>
@@ -1364,7 +1364,7 @@
     </div>
   </section>
 
-  <section id="register" style="background: url('static/assets/images/background-img.png') no-repeat;">
+  <section id="register" style="background-image: url('static/assets/images/background-img.png') no-repeat;">
     <div class="container ">
       <div class="row my-5 py-5">
         <div class="offset-md-3 col-md-6 my-5 ">
